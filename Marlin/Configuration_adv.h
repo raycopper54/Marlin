@@ -2115,7 +2115,7 @@
 #if ENABLED(LIN_ADVANCE)
   //#define EXTRA_ADVANCE_K // Enable for second linear advance constants
   #define ADVANCE_K 0.11    // Unit: mm compression per 1mm/s extruder speed
-  #define LA_DEBUG            // If enabled, this will generate debug information output over USB.
+  //#define LA_DEBUG            // If enabled, this will generate debug information output over USB.
   //#define EXPERIMENTAL_SCURVE // Enable this option to permit S-Curve Acceleration
   //#define ALLOW_LOW_EJERK     // Allow a DEFAULT_EJERK value of <10. Recommended for direct drive hotends.
   #if ENABLED(DISTINCT_E_FACTORS)
